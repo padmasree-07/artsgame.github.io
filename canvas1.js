@@ -9,7 +9,7 @@ let loadImage = (src,callback) =>{
 
 
 let imagePath =(frameNumber,animation) =>{
-    return "C:/Users/Dell/Desktop/FS development/martial arts/images/"+ animation +"/"+ frameNumber+".png" ;
+    return "C:/Users/Dell/Desktop/arts game/images/"+ animation +"/"+ frameNumber+".png" ;
 };
 
 let frames = {
@@ -58,7 +58,7 @@ let animate = (ctx , images , animation ,  callback) => {
     });
     setTimeout(callback , images[animation].length * 100);
 };
-
+ 
 
 loadImages( (images) => {
     let queueAnimation = [];
