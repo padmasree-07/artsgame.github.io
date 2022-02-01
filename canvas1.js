@@ -9,7 +9,7 @@ let loadImage = (src,callback) =>{
 
 
 let imagePath =(frameNumber,animation) =>{
-    return "C:/Users/Dell/Desktop/arts game/images/"+ animation +"/"+ frameNumber+".png" ;
+    return "images/"+ animation +"/"+ frameNumber+".png" ;
 };
 
 let frames = {
